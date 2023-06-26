@@ -134,3 +134,446 @@ Stack trace:
 [22-Jun-2023 12:28:31 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
 [22-Jun-2023 12:28:49 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
 [22-Jun-2023 12:28:49 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 12:51:59 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 12:52:02 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 12:53:44 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 12:53:46 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 14:47:24 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 14:47:27 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 14:47:30 Europe/Madrid] PHP Fatal error:  Uncaught Error: Object of class leantime\core\template could not be converted to string in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php:14
+Stack trace:
+#0 C:\Users\Informatica2\Desktop\Time\time\app\core\class.template.php(376): include()
+#1 C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\newTicketModal.tpl.php(23): leantime\core\template->displaySubmodule('tickets-ticketD...')
+#2 C:\Users\Informatica2\Desktop\Time\time\app\core\class.template.php(251): require_once('C:\\Users\\Inform...')
+#3 C:\Users\Informatica2\Desktop\Time\time\app\core\class.template.php(299): leantime\core\template->display('tickets.newTick...', 'blank')
+#4 C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\controllers\class.newTicket.php(74): leantime\core\template->displayPartial('tickets.newTick...')
+#5 C:\Users\Informatica2\Desktop\Time\time\app\core\class.controller.php(61): leantime\domain\controllers\newTicket->get(Array)
+#6 C:\Users\Informatica2\Desktop\Time\time\app\core\class.controller.php(33): leantime\core\controller->executeActions('get', Array)
+#7 C:\Users\Informatica2\Desktop\Time\time\app\core\class.frontcontroller.php(176): leantime\core\controller->__construct('get', Array)
+#8 C:\Users\Informatica2\Desktop\Time\time\app\core\class.frontcontroller.php(98): leantime\core\frontcontroller::executeAction('tickets.newTick...', Array, 200)
+#9 C:\Users\Informatica2\Desktop\Time\time\app\core\class.application.php(127): leantime\core\frontcontroller::dispatch()
+#10 C:\Users\Informatica2\Desktop\Time\time\public\index.php(26): leantime\core\application->start()
+#11 {main}
+  thrown in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 14
+[22-Jun-2023 14:47:54 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 14:47:57 Europe/Madrid] PHP Fatal error:  Uncaught Error: Object of class leantime\domain\models\tickets could not be converted to string in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php:14
+Stack trace:
+#0 C:\Users\Informatica2\Desktop\Time\time\app\core\class.template.php(376): include()
+#1 C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\newTicketModal.tpl.php(23): leantime\core\template->displaySubmodule('tickets-ticketD...')
+#2 C:\Users\Informatica2\Desktop\Time\time\app\core\class.template.php(251): require_once('C:\\Users\\Inform...')
+#3 C:\Users\Informatica2\Desktop\Time\time\app\core\class.template.php(299): leantime\core\template->display('tickets.newTick...', 'blank')
+#4 C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\controllers\class.newTicket.php(74): leantime\core\template->displayPartial('tickets.newTick...')
+#5 C:\Users\Informatica2\Desktop\Time\time\app\core\class.controller.php(61): leantime\domain\controllers\newTicket->get(Array)
+#6 C:\Users\Informatica2\Desktop\Time\time\app\core\class.controller.php(33): leantime\core\controller->executeActions('get', Array)
+#7 C:\Users\Informatica2\Desktop\Time\time\app\core\class.frontcontroller.php(176): leantime\core\controller->__construct('get', Array)
+#8 C:\Users\Informatica2\Desktop\Time\time\app\core\class.frontcontroller.php(98): leantime\core\frontcontroller::executeAction('tickets.newTick...', Array, 200)
+#9 C:\Users\Informatica2\Desktop\Time\time\app\core\class.application.php(127): leantime\core\frontcontroller::dispatch()
+#10 C:\Users\Informatica2\Desktop\Time\time\public\index.php(26): leantime\core\application->start()
+#11 {main}
+  thrown in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 14
+[22-Jun-2023 14:53:51 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 14:53:54 Europe/Madrid] PHP Fatal error:  Uncaught Error: Object of class leantime\domain\models\tickets could not be converted to string in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php:14
+Stack trace:
+#0 C:\Users\Informatica2\Desktop\Time\time\app\core\class.template.php(376): include()
+#1 C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\newTicketModal.tpl.php(23): leantime\core\template->displaySubmodule('tickets-ticketD...')
+#2 C:\Users\Informatica2\Desktop\Time\time\app\core\class.template.php(251): require_once('C:\\Users\\Inform...')
+#3 C:\Users\Informatica2\Desktop\Time\time\app\core\class.template.php(299): leantime\core\template->display('tickets.newTick...', 'blank')
+#4 C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\controllers\class.newTicket.php(74): leantime\core\template->displayPartial('tickets.newTick...')
+#5 C:\Users\Informatica2\Desktop\Time\time\app\core\class.controller.php(61): leantime\domain\controllers\newTicket->get(Array)
+#6 C:\Users\Informatica2\Desktop\Time\time\app\core\class.controller.php(33): leantime\core\controller->executeActions('get', Array)
+#7 C:\Users\Informatica2\Desktop\Time\time\app\core\class.frontcontroller.php(176): leantime\core\controller->__construct('get', Array)
+#8 C:\Users\Informatica2\Desktop\Time\time\app\core\class.frontcontroller.php(98): leantime\core\frontcontroller::executeAction('tickets.newTick...', Array, 200)
+#9 C:\Users\Informatica2\Desktop\Time\time\app\core\class.application.php(127): leantime\core\frontcontroller::dispatch()
+#10 C:\Users\Informatica2\Desktop\Time\time\public\index.php(26): leantime\core\application->start()
+#11 {main}
+  thrown in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 14
+[22-Jun-2023 14:55:30 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 15:03:03 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 15:03:53 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 15:09:57 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 15:17:54 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 15:17:55 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 15:17:59 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 16:14:06 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 16:14:09 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 16:22:48 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 16:25:16 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 16:25:22 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 16:25:38 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 16:25:45 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 16:54:05 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 16:54:07 Europe/Madrid] PHP Fatal error:  Uncaught ArgumentCountError: print_r() expects at least 1 argument, 0 given in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php:14
+Stack trace:
+#0 C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php(14): print_r()
+#1 C:\Users\Informatica2\Desktop\Time\time\app\core\class.template.php(376): include('C:\\Users\\Inform...')
+#2 C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\newTicketModal.tpl.php(23): leantime\core\template->displaySubmodule('tickets-ticketD...')
+#3 C:\Users\Informatica2\Desktop\Time\time\app\core\class.template.php(251): require_once('C:\\Users\\Inform...')
+#4 C:\Users\Informatica2\Desktop\Time\time\app\core\class.template.php(299): leantime\core\template->display('tickets.newTick...', 'blank')
+#5 C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\controllers\class.newTicket.php(74): leantime\core\template->displayPartial('tickets.newTick...')
+#6 C:\Users\Informatica2\Desktop\Time\time\app\core\class.controller.php(61): leantime\domain\controllers\newTicket->get(Array)
+#7 C:\Users\Informatica2\Desktop\Time\time\app\core\class.controller.php(33): leantime\core\controller->executeActions('get', Array)
+#8 C:\Users\Informatica2\Desktop\Time\time\app\core\class.frontcontroller.php(176): leantime\core\controller->__construct('get', Array)
+#9 C:\Users\Informatica2\Desktop\Time\time\app\core\class.frontcontroller.php(98): leantime\core\frontcontroller::executeAction('tickets.newTick...', Array, 200)
+#10 C:\Users\Informatica2\Desktop\Time\time\app\core\class.application.php(127): leantime\core\frontcontroller::dispatch()
+#11 C:\Users\Informatica2\Desktop\Time\time\public\index.php(26): leantime\core\application->start()
+#12 {main}
+  thrown in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 14
+[22-Jun-2023 16:54:18 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 17:10:42 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 17:12:31 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 17:17:03 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 17:17:21 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 17:18:13 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[22-Jun-2023 17:22:13 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 08:13:10 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 08:13:18 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 08:13:55 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 08:21:13 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 08:21:46 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 08:26:59 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 08:49:26 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 08:49:27 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 08:52:03 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 09:15:47 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 09:18:34 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 09:19:22 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 09:19:32 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 09:19:32 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 09:25:13 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 09:25:40 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 09:25:47 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 09:26:02 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 09:26:08 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 09:26:37 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 09:27:21 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 09:27:38 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 09:27:54 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 09:28:04 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 09:28:14 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 09:45:46 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 09:45:55 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 09:47:41 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:10:16 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:10:18 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:11:35 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:15:47 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:15:49 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to undefined function current_user_can() in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php:234
+Stack trace:
+#0 C:\Users\Informatica2\Desktop\Time\time\app\core\class.template.php(376): include()
+#1 C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\newTicketModal.tpl.php(23): leantime\core\template->displaySubmodule('tickets-ticketD...')
+#2 C:\Users\Informatica2\Desktop\Time\time\app\core\class.template.php(251): require_once('C:\\Users\\Inform...')
+#3 C:\Users\Informatica2\Desktop\Time\time\app\core\class.template.php(299): leantime\core\template->display('tickets.newTick...', 'blank')
+#4 C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\controllers\class.newTicket.php(74): leantime\core\template->displayPartial('tickets.newTick...')
+#5 C:\Users\Informatica2\Desktop\Time\time\app\core\class.controller.php(61): leantime\domain\controllers\newTicket->get(Array)
+#6 C:\Users\Informatica2\Desktop\Time\time\app\core\class.controller.php(33): leantime\core\controller->executeActions('get', Array)
+#7 C:\Users\Informatica2\Desktop\Time\time\app\core\class.frontcontroller.php(176): leantime\core\controller->__construct('get', Array)
+#8 C:\Users\Informatica2\Desktop\Time\time\app\core\class.frontcontroller.php(98): leantime\core\frontcontroller::executeAction('tickets.newTick...', Array, 200)
+#9 C:\Users\Informatica2\Desktop\Time\time\app\core\class.application.php(127): leantime\core\frontcontroller::dispatch()
+#10 C:\Users\Informatica2\Desktop\Time\time\public\index.php(26): leantime\core\application->start()
+#11 {main}
+  thrown in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 234
+[23-Jun-2023 10:16:26 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:16:28 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to undefined function current_user_can() in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php:234
+Stack trace:
+#0 C:\Users\Informatica2\Desktop\Time\time\app\core\class.template.php(376): include()
+#1 C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\newTicketModal.tpl.php(23): leantime\core\template->displaySubmodule('tickets-ticketD...')
+#2 C:\Users\Informatica2\Desktop\Time\time\app\core\class.template.php(251): require_once('C:\\Users\\Inform...')
+#3 C:\Users\Informatica2\Desktop\Time\time\app\core\class.template.php(299): leantime\core\template->display('tickets.newTick...', 'blank')
+#4 C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\controllers\class.newTicket.php(74): leantime\core\template->displayPartial('tickets.newTick...')
+#5 C:\Users\Informatica2\Desktop\Time\time\app\core\class.controller.php(61): leantime\domain\controllers\newTicket->get(Array)
+#6 C:\Users\Informatica2\Desktop\Time\time\app\core\class.controller.php(33): leantime\core\controller->executeActions('get', Array)
+#7 C:\Users\Informatica2\Desktop\Time\time\app\core\class.frontcontroller.php(176): leantime\core\controller->__construct('get', Array)
+#8 C:\Users\Informatica2\Desktop\Time\time\app\core\class.frontcontroller.php(98): leantime\core\frontcontroller::executeAction('tickets.newTick...', Array, 200)
+#9 C:\Users\Informatica2\Desktop\Time\time\app\core\class.application.php(127): leantime\core\frontcontroller::dispatch()
+#10 C:\Users\Informatica2\Desktop\Time\time\public\index.php(26): leantime\core\application->start()
+#11 {main}
+  thrown in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 234
+[23-Jun-2023 10:16:57 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:19:14 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:28:15 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:28:27 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:28:29 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:28:31 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 256
+[23-Jun-2023 10:28:31 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 256
+[23-Jun-2023 10:28:31 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:28:31 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:28:31 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:28:31 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:33:12 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:33:20 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 256
+[23-Jun-2023 10:33:20 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 256
+[23-Jun-2023 10:33:20 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:33:20 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:33:20 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:33:20 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:33:45 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:33:49 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 256
+[23-Jun-2023 10:33:49 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 256
+[23-Jun-2023 10:33:49 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:33:49 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:33:49 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:33:49 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:35:06 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:35:09 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 255
+[23-Jun-2023 10:35:09 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 255
+[23-Jun-2023 10:35:09 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 261
+[23-Jun-2023 10:35:09 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 261
+[23-Jun-2023 10:35:09 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 261
+[23-Jun-2023 10:35:09 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 261
+[23-Jun-2023 10:35:36 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:35:40 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 257
+[23-Jun-2023 10:35:40 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 257
+[23-Jun-2023 10:35:40 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 263
+[23-Jun-2023 10:35:40 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 263
+[23-Jun-2023 10:35:40 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 263
+[23-Jun-2023 10:35:40 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 263
+[23-Jun-2023 10:36:17 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:36:20 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 257
+[23-Jun-2023 10:36:20 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 257
+[23-Jun-2023 10:36:20 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 263
+[23-Jun-2023 10:36:20 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 263
+[23-Jun-2023 10:36:20 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 263
+[23-Jun-2023 10:36:20 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 263
+[23-Jun-2023 10:36:47 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:37:08 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 257
+[23-Jun-2023 10:37:08 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 257
+[23-Jun-2023 10:37:08 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 263
+[23-Jun-2023 10:37:08 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 263
+[23-Jun-2023 10:37:08 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 263
+[23-Jun-2023 10:37:08 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 263
+[23-Jun-2023 10:37:41 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:38:56 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:38:58 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 256
+[23-Jun-2023 10:38:58 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 256
+[23-Jun-2023 10:38:58 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:38:58 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:38:58 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:38:58 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:38:58 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 272
+[23-Jun-2023 10:38:58 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 272
+[23-Jun-2023 10:38:58 Europe/Madrid] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 272
+[23-Jun-2023 10:40:37 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:40:41 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 256
+[23-Jun-2023 10:40:41 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 256
+[23-Jun-2023 10:40:41 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:40:41 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:40:41 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:40:41 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:40:41 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 272
+[23-Jun-2023 10:40:41 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 272
+[23-Jun-2023 10:40:41 Europe/Madrid] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 272
+[23-Jun-2023 10:41:21 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:41:24 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 256
+[23-Jun-2023 10:41:24 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 256
+[23-Jun-2023 10:41:24 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:41:24 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:41:24 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:41:24 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:41:24 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 272
+[23-Jun-2023 10:41:24 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 272
+[23-Jun-2023 10:41:24 Europe/Madrid] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 272
+[23-Jun-2023 10:41:46 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:41:49 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 256
+[23-Jun-2023 10:41:49 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 256
+[23-Jun-2023 10:41:49 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:41:49 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:41:49 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:41:49 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 262
+[23-Jun-2023 10:41:49 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 272
+[23-Jun-2023 10:41:49 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 272
+[23-Jun-2023 10:41:49 Europe/Madrid] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 272
+[23-Jun-2023 10:58:32 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 10:58:36 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 253
+[23-Jun-2023 10:58:36 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 253
+[23-Jun-2023 10:58:36 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 259
+[23-Jun-2023 10:58:36 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 259
+[23-Jun-2023 10:58:36 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 259
+[23-Jun-2023 10:58:36 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 259
+[23-Jun-2023 10:58:36 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 269
+[23-Jun-2023 10:58:36 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 269
+[23-Jun-2023 10:58:36 Europe/Madrid] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 269
+[23-Jun-2023 11:00:43 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:04:02 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:09:59 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:10:05 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:10:09 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:10:25 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:13:56 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:15:54 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:23:24 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:24:14 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:25:32 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:25:34 Europe/Madrid] PHP Warning:  Array to string conversion in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 223
+[23-Jun-2023 11:26:04 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:26:06 Europe/Madrid] PHP Warning:  Undefined property: leantime\core\template::$get in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 223
+[23-Jun-2023 11:26:06 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 223
+[23-Jun-2023 11:26:24 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:26:26 Europe/Madrid] PHP Warning:  Undefined property: leantime\core\template::$get in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 223
+[23-Jun-2023 11:26:26 Europe/Madrid] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 223
+[23-Jun-2023 11:27:06 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:27:20 Europe/Madrid] PHP Warning:  Undefined variable $array in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 223
+[23-Jun-2023 11:27:33 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:28:33 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:29:00 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:29:50 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:31:05 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:31:09 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:31:15 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:31:29 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:31:35 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:32:08 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:32:13 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:32:27 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:32:38 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 11:52:27 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 12:11:31 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 12:11:36 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 12:12:44 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 12:12:45 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 12:14:20 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 12:15:37 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 12:16:55 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 12:19:38 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 12:19:51 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 12:19:57 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 12:20:02 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 12:22:56 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 12:52:05 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 12:52:22 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:07:41 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:07:45 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:07:57 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:08:21 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:08:23 Europe/Madrid] PHP Warning:  Undefined variable $userRow in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 223
+[23-Jun-2023 13:08:59 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:09:15 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:11:28 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:11:44 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:12:07 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:12:50 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:17:04 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:18:51 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:19:19 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:19:32 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:19:44 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:19:57 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:20:08 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:20:30 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:20:44 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:20:46 Europe/Madrid] PHP Warning:  Undefined variable $argc in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 223
+[23-Jun-2023 13:20:57 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:21:00 Europe/Madrid] PHP Warning:  Undefined variable $argv in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 223
+[23-Jun-2023 13:21:15 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:21:18 Europe/Madrid] PHP Warning:  Undefined variable $editor in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 223
+[23-Jun-2023 13:21:27 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:21:44 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:22:01 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:22:03 Europe/Madrid] PHP Warning:  Undefined variable $HTTP_RAW_POST_DATA in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 223
+[23-Jun-2023 13:22:16 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:22:20 Europe/Madrid] PHP Warning:  Undefined variable $http_response_header in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 223
+[23-Jun-2023 13:22:33 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:22:48 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:23:04 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:23:21 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:23:23 Europe/Madrid] PHP Warning:  Undefined variable $manager in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 223
+[23-Jun-2023 13:23:36 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:23:38 Europe/Madrid] PHP Warning:  Undefined variable $milestoneRow in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 223
+[23-Jun-2023 13:23:49 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:23:51 Europe/Madrid] PHP Warning:  Undefined variable $php_errormsg in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\templates\submodules\ticketDetails.sub.php on line 223
+[23-Jun-2023 13:24:09 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:24:33 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:24:40 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:25:25 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:25:38 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:29:08 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:29:09 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:31:22 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:49:13 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:50:02 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:50:05 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:50:09 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:50:24 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:50:52 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[23-Jun-2023 13:51:33 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:40:26 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:41:23 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:41:25 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:42:47 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:42:53 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:43:00 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:43:07 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:43:13 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:43:49 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:46:02 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:46:12 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:46:15 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:46:31 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:46:37 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:46:58 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:47:01 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:47:10 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:47:13 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:47:17 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:47:19 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:47:25 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:47:29 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:47:33 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:47:38 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:47:41 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:47:50 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:48:02 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:48:03 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:48:05 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:48:08 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:48:09 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:48:11 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:48:11 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:48:20 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:48:25 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:48:29 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:48:31 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:48:39 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:48:41 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:48:45 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:48:53 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:48:57 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:49:02 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:49:06 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:49:16 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:49:19 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:49:21 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:49:29 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:49:35 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:49:44 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:49:50 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:49:56 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:50:11 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:50:14 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:50:19 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:50:25 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:51:29 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:51:32 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:51:36 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:51:39 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:51:56 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:52:01 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:52:10 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:52:14 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:52:24 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:52:26 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:53:20 Europe/Madrid] PHP Warning:  Undefined array key "editorId" in C:\Users\Informatica2\Desktop\Time\time\app\domain\tickets\services\class.tickets.php on line 557
+[26-Jun-2023 08:53:20 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:53:25 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 08:53:42 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 09:16:20 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 09:16:39 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 09:34:56 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 09:35:02 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 09:35:15 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 09:35:19 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 09:35:21 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 09:36:03 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 09:36:09 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 09:36:26 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 09:36:35 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218
+[26-Jun-2023 09:36:38 Europe/Madrid] PHP Warning:  Undefined array key "strategy" in C:\Users\Informatica2\Desktop\Time\time\app\domain\menu\templates\menu.tpl.php on line 218

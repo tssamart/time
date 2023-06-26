@@ -6,6 +6,28 @@
     $ticketTypes = $this->get('ticketTypes');
 
 ?>
+<?php if ($login::userIsAtLeast($roles::$manager)) { 
+
+                    
+?>
+<style>
+
+    .albert_mod{
+        display: block;
+    }
+
+
+</style>
+
+
+<?php
+
+} 
+
+?>
+
+
+
 <input type="hidden" value="<?php $this->e($ticket->id); ?>" name="id" autocomplete="off" readonly/>
 
 <div class="row-fluid">
@@ -88,7 +110,7 @@
                     </div>
                 </div>
 
-                <div class="form-group albert_mod">
+                <div class="form-group">
                     <label class="span4 control-label"><?php echo $this->__('label.todo_status'); ?></label>
                     <div class="span6">
                         <select id="status-select" class="span11" name="status"
@@ -202,7 +224,7 @@
 
             </div>
         </div>
-        <div class="row-fluid marginBottom albert_mod">
+        <div class="row-fluid marginBottom">
             <div class="span12">
 
                 <h4 class="widgettitle title-light"><span
@@ -216,31 +238,44 @@
                     </div>
                 </div>
 
-                <div class="form-group">
-                    <label class="span4 control-label"><?php echo $this->__('label.editor'); ?></label>
-                    <div class="span6">
-                    <input type="text" disabled="disabled" style="width:175px;"
-                               value="<?php $this->e($ticket->userFirstname); ?> <?php $this->e($ticket->userLastname); ?>"/>
 
-                       <!-- <select data-placeholder="<?php echo $this->__('label.filter_by_user'); ?>" style="width:175px;"
-                                name="editorId" id="editorId" class="user-select span11">
-                            <option value=""><?php echo $this->__('label.not_assigned_to_user'); ?></option>
-                            <?php foreach ($this->get('users') as $userRow) { ?>
-                                <?php echo "<option value='" . $userRow["id"] . "'";
 
-                                if ($ticket->editorId == $userRow["id"]) {
-                                    echo " selected='selected' ";
-                                }
-                                echo ">" . $this->escape($userRow["firstname"] . " " . $userRow["lastname"]) . "</option>"; ?>
+                <?php if ($login::userIsAtLeast($roles::$manager)) { 
+                    
+                    //echo '<pre style="background-color: #040404; color: green; position: absolute; left: 0; width: 100vw;">'; print_r($this); echo '</pre>';
+                    ?>
 
+
+                    <div class="form-group Leia">
+                        <label class="span4 control-label"><?php echo $this->__('label.editor'); ?></label>
+                        <div class="span6">
+
+                            <select data-placeholder="<?php echo $this->__('label.filter_by_user'); ?>" style="width:175px;"
+                                    name="editorId" id="editorId" class="user-select span11">
+                                <option value=""><?php echo $this->__('label.not_assigned_to_user'); ?></option>
+                                <?php foreach ($this->get('users') as $userRow) { ?>
+                                    <?php echo "<option value='" . $userRow["id"] . "'";
+
+                                    if ($ticket->editorId == $userRow["id"]) {
+                                        echo " selected='selected' ";
+                                    }
+
+                                    echo ">" . $this->escape($userRow["firstname"] . " " . $userRow["lastname"]) . "</option>"; ?>
+
+                                <?php } ?>
+                            </select><br />
+                            <?php if ($login::userIsAtLeast($roles::$editor)) {  ?>
+                                <small style="margin-top:-5px; display:block"><a href="javascript:void(0);" onclick="jQuery('#editorId').val(<?php echo $_SESSION['userdata']['id']; ?>).trigger('chosen:updated');"><?php echo $this->__('label.assign_to_me'); ?></a></small>
                             <?php } ?>
-                        </select><br /> 
-                        
-                        <?php if ($login::userIsAtLeast($roles::$editor)) {  ?>
-                            <small style="margin-top:-5px; display:block"><a href="javascript:void(0);" onclick="jQuery('#editorId').val(<?php echo $_SESSION['userdata']['id']; ?>).trigger('chosen:updated');"><?php echo $this->__('label.assign_to_me'); ?></a></small>
-                        <?php } ?> -->
+                        </div>
                     </div>
-                </div>
+
+
+                <?php } ?>
+
+
+
+
 
 
     </div>
