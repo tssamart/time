@@ -46,3 +46,80 @@ Stack trace:
 #7 C:\Users\Informatica2\Desktop\Time\time\app\core\class.application.php(46): leantime\domain\services\auth::getInstance('87c3c46ef608f46...')
 #8 C:\Users\Informatica2\Desktop\Time\time\public\index.php(24): leantime\core\application->__construct(Object(leantime\core\IncomingRequest))
 #9 {main}
+[17-Jul-2023 02:53:00 America/Los_Angeles] PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\time\app\core\class.db.php:74
+Stack trace:
+#0 C:\xampp\htdocs\time\app\core\class.db.php(74): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 C:\xampp\htdocs\time\app\core\class.db.php(99): leantime\core\db->__construct()
+#2 C:\xampp\htdocs\time\app\domain\setting\repositories\class.setting.php(25): leantime\core\db::getInstance()
+#3 C:\xampp\htdocs\time\app\core\class.language.php(76): leantime\domain\repositories\setting->__construct()
+#4 C:\xampp\htdocs\time\app\core\class.language.php(162): leantime\core\language->__construct()
+#5 C:\xampp\htdocs\time\app\domain\auth\services\class.auth.php(142): leantime\core\language::getInstance()
+#6 C:\xampp\htdocs\time\app\domain\auth\services\class.auth.php(154): leantime\domain\services\auth->__construct('84bd8246e05c397...')
+#7 C:\xampp\htdocs\time\app\core\class.application.php(46): leantime\domain\services\auth::getInstance('84bd8246e05c397...')
+#8 C:\xampp\htdocs\time\public\index.php(24): leantime\core\application->__construct(Object(leantime\core\IncomingRequest))
+#9 {main}
+[17-Jul-2023 02:54:46 America/Los_Angeles] PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\time\app\core\class.db.php:74
+Stack trace:
+#0 C:\xampp\htdocs\time\app\core\class.db.php(74): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 C:\xampp\htdocs\time\app\core\class.db.php(99): leantime\core\db->__construct()
+#2 C:\xampp\htdocs\time\app\domain\setting\repositories\class.setting.php(25): leantime\core\db::getInstance()
+#3 C:\xampp\htdocs\time\app\core\class.language.php(76): leantime\domain\repositories\setting->__construct()
+#4 C:\xampp\htdocs\time\app\core\class.language.php(162): leantime\core\language->__construct()
+#5 C:\xampp\htdocs\time\app\domain\auth\services\class.auth.php(142): leantime\core\language::getInstance()
+#6 C:\xampp\htdocs\time\app\domain\auth\services\class.auth.php(154): leantime\domain\services\auth->__construct('84bd8246e05c397...')
+#7 C:\xampp\htdocs\time\app\core\class.application.php(46): leantime\domain\services\auth::getInstance('84bd8246e05c397...')
+#8 C:\xampp\htdocs\time\public\index.php(24): leantime\core\application->__construct(Object(leantime\core\IncomingRequest))
+#9 {main}
+[17-Jul-2023 02:55:01 America/Los_Angeles] PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\time\app\core\class.db.php:74
+Stack trace:
+#0 C:\xampp\htdocs\time\app\core\class.db.php(74): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 C:\xampp\htdocs\time\app\core\class.db.php(99): leantime\core\db->__construct()
+#2 C:\xampp\htdocs\time\app\domain\setting\repositories\class.setting.php(25): leantime\core\db::getInstance()
+#3 C:\xampp\htdocs\time\app\core\class.language.php(76): leantime\domain\repositories\setting->__construct()
+#4 C:\xampp\htdocs\time\app\core\class.language.php(162): leantime\core\language->__construct()
+#5 C:\xampp\htdocs\time\app\domain\auth\services\class.auth.php(142): leantime\core\language::getInstance()
+#6 C:\xampp\htdocs\time\app\domain\auth\services\class.auth.php(154): leantime\domain\services\auth->__construct('84bd8246e05c397...')
+#7 C:\xampp\htdocs\time\app\core\class.application.php(46): leantime\domain\services\auth::getInstance('84bd8246e05c397...')
+#8 C:\xampp\htdocs\time\public\index.php(24): leantime\core\application->__construct(Object(leantime\core\IncomingRequest))
+#9 {main}
+[17-Jul-2023 02:55:04 America/Los_Angeles] PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\time\app\core\class.db.php:74
+Stack trace:
+#0 C:\xampp\htdocs\time\app\core\class.db.php(74): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 C:\xampp\htdocs\time\app\core\class.db.php(99): leantime\core\db->__construct()
+#2 C:\xampp\htdocs\time\app\domain\setting\repositories\class.setting.php(25): leantime\core\db::getInstance()
+#3 C:\xampp\htdocs\time\app\core\class.language.php(76): leantime\domain\repositories\setting->__construct()
+#4 C:\xampp\htdocs\time\app\core\class.language.php(162): leantime\core\language->__construct()
+#5 C:\xampp\htdocs\time\app\domain\auth\services\class.auth.php(142): leantime\core\language::getInstance()
+#6 C:\xampp\htdocs\time\app\domain\auth\services\class.auth.php(154): leantime\domain\services\auth->__construct('84bd8246e05c397...')
+#7 C:\xampp\htdocs\time\app\core\class.application.php(46): leantime\domain\services\auth::getInstance('84bd8246e05c397...')
+#8 C:\xampp\htdocs\time\public\index.php(24): leantime\core\application->__construct(Object(leantime\core\IncomingRequest))
+#9 {main}
+[17-Jul-2023 02:56:17 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[17-Jul-2023 02:56:24 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[17-Jul-2023 02:56:48 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[17-Jul-2023 02:57:51 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[17-Jul-2023 02:57:58 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[17-Jul-2023 02:58:13 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[17-Jul-2023 02:59:48 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[17-Jul-2023 03:09:58 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[17-Jul-2023 03:10:01 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[17-Jul-2023 03:10:07 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[17-Jul-2023 03:10:11 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[17-Jul-2023 03:10:38 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[17-Jul-2023 03:10:42 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[17-Jul-2023 03:10:49 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[17-Jul-2023 03:10:58 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[17-Jul-2023 03:11:21 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[17-Jul-2023 03:11:26 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[17-Jul-2023 03:11:37 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[17-Jul-2023 03:11:48 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[17-Jul-2023 03:13:42 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[17-Jul-2023 03:13:46 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[17-Jul-2023 03:19:42 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[17-Jul-2023 03:39:04 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[18-Jul-2023 23:32:14 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[18-Jul-2023 23:32:29 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[18-Jul-2023 23:34:46 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[18-Jul-2023 23:34:49 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[18-Jul-2023 23:39:26 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[18-Jul-2023 23:42:52 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
