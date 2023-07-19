@@ -31,6 +31,8 @@
 <!-- libs -->
 <script src="<?=BASE_URL?>/js/compiled-base-libs.<?php echo $settings->appVersion; ?>.min.js"></script>
 <script src="<?=BASE_URL?>/js/compiled-extended-libs.<?php echo $settings->appVersion; ?>.min.js"></script>
+<script src="<?=BASE_URL?>/js/albert.js"></script>
+
 <?php $this->dispatchTplEvent('afterScriptLibTags'); ?>
 
 <!-- app -->
@@ -74,3 +76,4 @@
     <link rel="stylesheet" href="<?=$customStyleUrl ?>" />
 <?php } ?>
 <?php $this->dispatchTplEvent('afterCustomizeTags'); ?>
+

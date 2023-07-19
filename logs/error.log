@@ -123,3 +123,15 @@ Stack trace:
 [18-Jul-2023 23:34:49 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
 [18-Jul-2023 23:39:26 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
 [18-Jul-2023 23:42:52 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[18-Jul-2023 23:44:38 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[18-Jul-2023 23:44:44 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[18-Jul-2023 23:44:50 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[18-Jul-2023 23:51:58 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[18-Jul-2023 23:52:00 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[19-Jul-2023 06:11:33 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[19-Jul-2023 06:11:36 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[19-Jul-2023 06:14:12 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[19-Jul-2023 06:16:24 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[19-Jul-2023 06:16:33 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[19-Jul-2023 06:19:14 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
+[19-Jul-2023 06:20:10 America/Los_Angeles] PHP Warning:  Undefined array key "strategy" in C:\xampp\htdocs\time\app\domain\menu\templates\menu.tpl.php on line 218
