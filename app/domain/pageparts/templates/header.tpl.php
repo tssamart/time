@@ -24,6 +24,7 @@
 
 <link rel="stylesheet" href="<?=BASE_URL?>/css/main.<?php echo $settings->appVersion; ?>.css"/>
 <link rel="stylesheet" href="<?=BASE_URL?>/css/samart.css"/>
+<link rel="stylesheet" href="<?=BASE_URL?>/css/albert.css"/>
 <?php $this->dispatchTplEvent('afterLinkTags'); ?>
 
 <script src="<?=BASE_URL?>/api/i18n"></script>
